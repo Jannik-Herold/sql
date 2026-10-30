@@ -208,6 +208,10 @@ Link if you encounter a paywall: https://archive.is/srKHV or https://web.archive
 Consider, for example, concepts of fariness, inequality, social structures, marginalization, intersection of technology and society, etc.
 
 
-```
-Your thoughts...
-```
+'''
+Obviously the one named example of the maritial status of the parents and also the relationship to other relatives such as uncles and aunts or siblings is probably embedded in these databases.
+I would guess that being married or having a high paying job could be embedded in multiplier systems rewarding someone with greater benefits in mortgages from banks, interest rates on installments or qualifying for credit cards. Marginalization is also used as a factor to control for equity in hiring procedures nowadays to account for inequality. 
+Since data nowadays is one of the most powerfull resources most of our daily life encounters are governed by it. If there is enough browser tracking data advertisement gets tailored towards the individual which also accounts for other factors such as maritial status, leisure time activities, tax bracket etc. Depending on the cultural background in different countries properties will be differentially values. I dont think it should be the case that receiving a citizen ID should only be given out if your parents are married. This really shows how narrow-minded some parts of the world still are. This really restricts fairness for the individual and limits it based on pre-decided factors which are not approved by the broad public, but by a hand of people 
+who set up the system which is used for that. In a time where every single one of your steps is tracked there should be a more closely monitored data policy which exactly investigates what
+databases are based on and how value systems are linked to that. This should be a supranational agency which operates independent of country borders and has the right to interfere. This however will sadly never happen.
+'''
