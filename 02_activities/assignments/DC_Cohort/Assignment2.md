@@ -57,7 +57,24 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 **HINT:** search type 1 vs type 2 slowly changing dimensions. 
 
 ```
-Your answer...
+Type 1 (changes overwrite no history of changes kept)
+create customer adress table and move from customer
+customer_street
+customer_apt_number
+customer_postal_code 
+into a customer_address table
+adress_id (PK)
+customer_id (FK)
+followed by the 3 moved columns
+
+Type 2(when changes made keep old row and mark it as expired and insert a new row thereby history is kept)
+customer_adress as table
+same layout as Type 1 +
+effective_start_date (FK date)
+effective_end_date (FK.date)
+is_current
+
+is_current will be changed to FALSE if adress changes
 ```
 
 ***
@@ -193,5 +210,5 @@ Consider, for example, concepts of labour, bias, LLM proliferation, moderating c
 
 
 ```
-Your thoughts...
+I think the biggest problem related to this article is that the curation of the database is a really labour intensive and that this exploits lower wages/pay than the minimum american wage which would have been paid to american students/residents labelling these images. Even with a quality control the training data will always contain falsely labelled images. I am not too familiar with LLMs but I think the output of labeling humans based on previously generated images is technically not harmfull only in the context when this system is used to evaluate people registering or signing up for something in whatever context. If they receive worse treatment by the system just because of false labeling this is ethically highly critical. Since this Image-set seems to be used by a lot of companies/people developing LLMs I think it is highly biased since all of them basically use the same source and there is to less effort in creating something more fair/curated which does not lead to theses errors. I was just wondering about the general assumption beneath the article because the video shown with the robot folding towels is already 15 years old so I dont really know what kind of picture they want to paint here. Surely these robotics improved by a lot until now. Without the expertise in this field I am not sure which conclusions I can draw here since this article is already from 2019 and a lot has happened since. However trusting the current AI blindly is simply not an option I often feel like LLMs are highly biased in supporting the users opinion especially ChatGPT and I have heard a couple of stories where the content in the output is highly questionable. I would be interested to see an update on this topic from the same author 7 years later.
 ```
